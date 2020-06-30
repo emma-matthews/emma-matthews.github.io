@@ -27,15 +27,58 @@
     <h3 class="date">30 June 2020</h3>
     
     <p>
-      Te Houtaewa was the fastest runner of his day and played many pranks on his peoples enemies. One morning his mother wanted kumara for the hangi (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short distance away. He agreed to fetch the kumara and told his mother to prepare the hangi.
+      Id and class attributes are a way of defining your selectors/tags which are simply notations we can assign to elements so that we can style them in a unique way. It is a great way to easily style the same HTML element in different ways. 
     </p>
     <p>
-      Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as he wanted to annoy some Te Rarawa people who lived there. Carrying two large baskets for the kumara, he ran like the wind, completing the journey over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few hours it takes a good hangi to heat up properly. On reaching Ahipara, he went straight to the people's kumara pataka (storehouse for the sweet potatoes) situated at the foot of the hill Whangatauatia.
+      The function of id’s and classes overlap significantly although there are some key differences between them.
     </p>
     <p>
-      While Te Houtaewa was filling his baskets with kumara he was spotted stealing the kai (food). He was immediately recognised.
+      Id’s are rare and powerful selectors. They can only be used once per html element (everything from a start tag to the end tag) and you can’t have more than 1 copy of an id per page. Id’s also take higher priority to class. They are handy when you want to provide and internal link target i.e. to navigate to a specific section of a page from elsewhere on the page. 
+    </p>
+    <p>Classes are the more common and flexible selector: One class can be used in more than one element and you can assign multiple classes per element, these only need to be separated by a space.
+    </p>
+    <p>“This is much like ID’s and Classes. Information that is reusable should be kept in a class and information that is totally unique should be kept in an ID.” - Chris Coyier.
+    </p>
+    <p>So with the definitions and differences between id and class attributes, here are some suggestions for the most helpful practice when it comes to using them: 
+      <ol>
+        <li>Take care with how many you are using, 
+          Keep your css and html files as simple and easy to comprehend as possible. One cool way of minimising the use of class selectors is by remembering that if a div element, has been assigned class selector, e.g ‘container’, and contains other tagged elements, any of these contained elements can be targeted uniquely in the corresponding css file by stating the class selector followed by the target tag. Eg. to target a specific paragraph within class container: .container p { }. This technique reduces the need to create a new class for each element within an already class defined element. 
+          Some of the following points may also be able to support us to be clever rather than indulgent with our use of these selectors. 
+          
+          Be consistent and considered.
+          </li>
+          <li>Name them according to their function. 
+            This will help us, and/or other people looking at these files to follow our logic and make any maintenance as simple as possible.
+            </li>
+          <li>Keep names short and sweet. 
+            This keeps things kinder for our eyes and understanding.
+            <p>“ Use Names That Are as Short as Possible But as Long as Necessary”- Jens Oliver Meiert
+            </p></li>
+          <li>Use ids for elements that appear only once on the page
+              Like a menu, a header and a footer
+              </li>
+          <li>Use class for elements that appear on the page more than once
+                Like paragraphs, buttons, and links
+                </li>
+          <li>Remember that an HTML element can have both an id and a class. For example - Assign the same class to style elements so they appear identical and then assign a different id to each to control their positions.
+                </li>
+          <li>Remember elements may be assigned multiple classes at the same time. 
+            This means that within an elements presentation can be determined by one or more class properties. 
+            E.g. If you have a .content class that is applied to all paragraphs and you want to add a border to one certain paragraph, you can simply add another class, like .bordered, to add extra styling.
+          </li>
+          <li>Be wary when using id’s in collaborative projects.
+            Because of the restrictions around id’s there is a higher risk of contradictions and confusion when other people are working on the same document as you. Either clarify your practice around id’s and classes with collaborators or stick to using classes to achieve your desired styling.
+            </li>
+        </ol>
+    </p>
+    <p>This is not an exhaustive list, but hopefully a thought provoking one. Understanding the rules, establishing your own practice and clarifying practices amongst collaborators seems like a great start to a healthy relationship with id and class selectors. Their proper application relates to function and also ease of understanding. As with anything, clear communication is a great foundation to build upon. 
+    </p>
+    <p>I hope this has been a helpful read for you, I’m stoked to have you along with me as I learn these new concepts and build my tech world view.
     </p>
    </div> 
+   <div> 
+     <p>Yours sincerly, Emma Matthews</p>
+   </div>
     <!-- this is a comment. -->
   
   </body>
