@@ -25,6 +25,8 @@ h1 {
 }
 .content {
 	font-family: 'Source Sans Pro', sans-serif;
+	max-width: 800px;
+	margin: 0 auto;
 }
 .quote {
 	font-size: 18pt;
