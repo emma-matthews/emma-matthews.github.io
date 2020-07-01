@@ -62,7 +62,7 @@ body {
 img {
 	border-radius: 3%;
 	margin-top: 2%;
-	max-width:100%;
+	min-width:50%
 	height: auto;
 	display: block;
     margin-left: auto;
