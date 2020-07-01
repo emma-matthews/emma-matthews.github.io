@@ -21,83 +21,43 @@
     <h1 class= "intro text">
       <span class ="welcome-text"> You've made it to </span>
       <br>
-      Emma's Blog About..
+      Emma's Blog on..
     </h1>
   </div> 
   <div class ="container">
-    <h2 class ="blog_title">Best practice <br> - Using classes vs. ids</h2>
-    <h3 class ="date">30 June 2020</h3>
-    
-    <p class ="content">
-      Id and class attributes are a way of defining your selectors/tags which are simply notations we can assign to elements so that we can style them in a unique way. It is a great way to easily style the same HTML element in different ways. 
+    <header><h2 class ="blog_title">Learning Reflections
+    </h2></header>
+    <p class ="date">1st July 2020</p>
 
-      The function of id’s and classes overlap significantly although there are some key differences between them:
+    <header><h3>When I think about my long term goals,</h3></header>
     </p>
     <p class ="content">
-      <em class ="lead-statement">Id’s are rare and powerful selectors.</em> <br>
-      They can only be used once per html element (everything from a start tag to the end tag) and you can’t have more than 1 copy of an id per page. Id’s also take higher priority to class. They are handy when you want to provide and internal link target i.e. to navigate to a specific section of a page from elsewhere on the page. 
-    </p>
+      
+      I want to combine my experience and interest in human skills with a hard and practical skill such as web development. It has been a delight so far in the course to experience the employment of what feels like both parts of my brain - the more black and white side and the more colourful creative side. I would love to have a career working in a diverse team, developing ethically minded tech while maintaining a great work/life balance. My income will ideally sustain me to live a relatively simple life, with quality/low impact possessions and well sourced food. It will allow me to explore my other interests in communication, small business, nutrition, disability support provision and sustainable living. One of my dreams is to live in a lush, off grid tiny home, tend a small garden, have a generous amount of time to offer a community and to have a balance of onsite and home-office tech work. </p>
+      <br><header><h3>And the human skills I want to develop..</h3></header>
+      <p class ="content">
+        I look forward to building a more complimentary way of working in teams. I want to become skilled in using personal and team routines and rituals that ensure we are all cared for and thriving in a work environment. I want to be able to respond to different personalities, to listen to what it is they want to grow for themselves and really try to make space where I can for them to do so.</p>       
+        
+        <br><header><h3>I start to think about my strengths and limitations,</h3></header>
     <p class ="content">
-      <em class ="lead-statement">Classes are the more common and flexible selector.</em><br> One class can be used in more than one element and you can assign multiple classes per element, these only need to be separated by a space.
-    </p>
-    <p class ="quote">“This is much like ID’s and Classes. Information that is reusable should be kept in a class and information that is totally unique should be kept in an ID.” - Chris Coyier.
-    </p>
-    <p class ="content">So with the definitions and differences between id and class attributes, here are some suggestions for the most helpful practice when it comes to using them:
-       
-      <ol class ="content">
-        <li><em class ="lead-statement">Take care with how many you are using. </em> <br>
-          Keep your css and html files as simple and easy to comprehend as possible.<br> <br>
-          One cool way of minimising the use of class selectors is by remembering that if a 
-          div element, has been assigned class selector, e.g ‘container’, and contains other 
-          tagged elements, any of these contained elements can be targeted uniquely in the 
-          corresponding css file by stating the class selector followed by the target tag. 
-          Eg. to target a specific paragraph within class container: .container p { }. <br><br><em> I've illustrated
-            this example bellow:</em>
-          </em>
-          
-          <img id = "example 1" src="images/example-1-1.png"> <img id = "example 1" src="images/example-1-2.png">
-          <p>Be consistent and considered. This technique reduces the need to create a new 
-            class for each element within an already class defined element. Some of the 
-            following points may also be able to support us to be clever rather than 
-            indulgent with our use of these selectors. </p> 
-          
-          </li>
-          <br>
-          <li><em class ="lead-statement">Name them according to their function.</em> <br>
-            This will help us, and/or other people looking at these files to follow our logic and make any maintenance as simple as possible.<br><br><em> As you can see here, a container is named a container because it contains things:</em>
-            <img id = "example-container" src = "images/example-container.png"></li><br>
-          <li><em class ="lead-statement">Keep names short and sweet:</em> <br>
-            This keeps things kinder for our eyes and understanding.
-            <br><br><em> e.g. container's pretty sweet</em>
-            <p class ="quote">“Use Names That Are as Short as Possible But as Long as Necessary”- Jens Oliver Meiert
-            </p></li>
-          <li><em class ="lead-statement">Use ids for elements that appear only once on the page. </em><br>
-              Like a menu, a header and a footer
-              </li><br>
-          <li><em class ="lead-statement">Use class for elements that appear on the page more than once.</em><br>
-                Like paragraphs, buttons, and links
-                </li><br>
-          <li><em class ="lead-statement">Remember that an HTML element can have both an id and a class.</em><br> For example - Assign the same class to style elements so they appear identical and then assign a different id to each to control their positions.
-            <br><br><em> As you can see here, same styling according to the class and different positioning according to unique id's:</em> 
-            <img src= "images/example-position-1.png"><img src= "images/example-position-2.png"></li><br>
-          <li><em class ="lead-statement">Remember elements may be assigned multiple classes at the same time.</em><br>
-            This means that within an elements presentation can be determined by one or more class properties. 
-            E.g. If you have a .content class that is applied to all paragraphs and you want to add a border to one certain paragraph, 
-            you can simply add another class, like .bordered, 
-            to add extra styling.<br><br><em> As you can see here, we have the umbrella syling of green with an additional style (border) added to an individual paragraph:</em>
-          <img src="images/example-border-1.png"><img src="images/example-border-2.png"></li><br>
-          <li><em class ="lead-statement">Be wary when using id’s in collaborative projects.</em><br>
-            Because of the restrictions around id’s there is a higher risk of contradictions and confusion when other people are working on the same document as you. Either clarify your practice around id’s and classes with collaborators or stick to using classes to achieve your desired styling.
-            </li><br>
-        </ol>
-    </p>
-    <p class= "content">This is not an exhaustive list, but hopefully a thought provoking one. Understanding the rules, establishing your own practice and clarifying practices amongst collaborators seems like a great start to a healthy relationship with id and class selectors. Their proper application relates to function and also ease of understanding. As with anything, clear communication is a great foundation to build upon. 
-    </p>
-    <p class = "content">I hope this has been a helpful read for you, I’m stoked to have you along with me as I learn these new concepts and build my tech world view.
-    </p>
-  
-   <div> 
-     <p class = "welcome-text">Yours sincerely, Emma Matthews</p>
+      I’m a deep thinker and big feeler. I am quite competent when it comes to learning most things. I enjoy building structure into my days and like a more organised rather than chaotic approach to most tasks/activities. I can get tied up in details and become a bit too attached to a certain outcome rather than allowing a more organic process. I also attach big meaning to the things that I invest my time and energy into and as such can suffer when things go differently than I imagined or wanted them to or when others don’t share the same feelings as I do.  
+</p>
+<br><header><h3>And how I will manage the workload in this programme. </h3></header>
+<p class ="content">
+  I am committed to using my organizational strengths and preference for preparation to manage my workload. Being able to respect time frames that I have set is hugely important. Being able to switch off after a chunk of work has been done, step away or  hand over is also key. I like to use scheduling tools like google calendar and my newly acquired pomodoro timer and I enjoy the relief of knowing that there is an unbiased entity keeping me accountable. Being aware of the health of my ego, my health and my colleagues is also important and having routine check in’s will also help keep things in perspective for me. Lastly, gaining perspective by remembering the promise I made to myself when joining this course which is that I am here to enjoy learning a new skill to support my wants and needs for my life. I am not here to hurt myself or others in the pursuit of perfection.
+</p>
+<br><header><h3>I make sure I can and will seek help quickly if I need it, </h3></header>
+<p class = "content"> I have a very aware personal support team who I have no trouble turning to quickly if I need some empathy or emotional support. I am also looking forward to establishing a relationship with the cohort and facilitators/support people so that if I need help I will have already established an ease of conversation. </p>
+
+<br><header><h3>And describe what I expect from those holding the course. </h3></header>
+       <p class = "content">I expect the facilitation team to support the vision of my learning journey as best as they can while ensuring they are well and cared for themselves. I always appreciate people in a holding position to be able to communicate clearly and honestly both as it relates to work and personal expectations. I find it more relaxing and supportive to be around people who can respectfully advocate for themselves and this is what I expect from the facilitation team too.</p>
+<br><header><h3>I'll take care to organise my time wisely, especially since I'm going on holiday.. </h3></header>
+       <p class = "content"> I am going to be away from home for 11 days during foundations and so I have communicated this with the facilitation team and am scheduling my study around this. I hope to do a couple of hours a day for about 8/11 days and have a pretty lenient schedule for the weeks after my return which will hopefully cater to my catchup.</p>
+
+<br><br><header><h3>And while I do all of this, I'll always remember my 'why's' and allow myself to enjoy the process! </h3></header>
+
+<div> 
+     <p class = "welcome-text">Emma x</p>
    </div>
     <!-- this is a comment. -->
     <div class = "btn-group">
@@ -106,6 +66,5 @@
       <a class = "button" href= "index.html">Head back to my homepage </a>
       <br>
     </div>
-  
   </body>
 </html>
