@@ -27,10 +27,12 @@ h1 {
 	font-family: 'Source Sans Pro', sans-serif;
 	max-width: 800px;
 	margin: 0 auto;
+	margin-top: 1em;
 }
 .quote {
 	font-size: 18pt;
 	text-align: center;
+	font-family: 'Noto Serif JP', serif;
 }
 .date {
 	font-size: 10pt;
