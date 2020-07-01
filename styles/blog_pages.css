@@ -21,7 +21,7 @@ h1 {
 .container {
 	max-width: 800px;
 	margin: 0 auto;
-	padding-top: 8em;
+	padding-top: 1em;
 }
 .content {
 	font-family: 'Source Sans Pro', sans-serif;
