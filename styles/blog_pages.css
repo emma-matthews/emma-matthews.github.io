@@ -60,14 +60,17 @@ body {
 	text-align: center;
 }
 img {
-	border-radius: 3%;
+	border-radius: 1%;
 	margin-top: 2%;
-	min-width:50%
+	max-width: 100%;
+	min-width:50%;
 	height: auto;
 	display: block;
     margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 2%; 
+	margin-bottom: 2%;
+	border-style: solid;
+	border-color: #b6755c;
 	}
 .topnav {
 	color: white;
