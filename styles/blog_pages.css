@@ -148,3 +148,10 @@ ul {
 	padding:0;
 	line-height: 30pt;
 }
+#final-statement {
+	text-align: center;
+	font-weight: 700;
+	font-style: normal;
+	font-size: large;
+	font-family: 'Noto Serif JP', serif;
+}
