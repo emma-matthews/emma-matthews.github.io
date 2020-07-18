@@ -29,17 +29,17 @@
     </h2></header>
     <p class ="date">18th July 2020</p>
 
-    <header><h3>Javascript in basic terms, let's give it a go!</h3></header>
+    <header><h3>JavaScript, HTML & CSS</h3></header>
     </p>
     <p class ="content">
- 
+  
         <br><em class ="lead-statement">JavaScript is the very engaging and adventurous friend of CSS and HTML:</em><br> To help me understand the different roles of 
         HTML and CSS I like to think of them in terms of a structure - such a house or an organism. Following this thought pattern, HTML would be considered the ‘bones’ 
         or frame of a structure. In tech, it is considered to be the raw content and the information that is wishing to be communicated. In comparison, CSS would be the 
         flesh on the bones or the paint on the walls. There are lots of variations in what people or buildings look like, we can consider these differences in style or 
         appearance. In tech, CSS brings color and unique aesthetic properties to the information we want to communicate in order to make it more attractive and somewhat 
         more palatable.
-
+        <br> <br><header><h3>Control Flow</h3></header>
         <br><br><em class ="lead-statement">Control flow is the sequence in which statements in a script are executed:</em><br>
         Like when you recreate that dish from masterchef, you will follow the steps in a recipe in an order to eventually achieve the desired outcome. 
  
@@ -49,7 +49,7 @@ terms which enable JavaScript to discern true or false statements and alter its 
 essentially providing 1 or more alternatives depending on an outcome. Like having a plan contingency plan in place so it can execute a response for every possible outcome 
 e.g plan a), b), c) and so on.
 
-        
+<br> <br><header><h3>Loops</h3></header>
         <br><br><em class ="lead-statement">Loops are a feature that affects the order of code execution and will repeatedly evaluates or runs a block of code until a 
           specified condition is met or time frame is complete:</em><br>
         Each ‘run through’ is known as an iteration.
@@ -65,7 +65,7 @@ e.g plan a), b), c) and so on.
 
 <br><p class = "center"> And input my own example in the 'for' statement:</p>
 <img id = "example 1" src="images/for-statement-2.png">
-       
+<br> <br><header><h3>The DOM</h3></header>
 <br><br><p class = "content"><em class ="lead-statement">DOM stands for Document Object model and is considered The glue between HTML, CSS and JavaScript :</em><br>
 It is an object-oriented representation of a web page, which can be modified with a scripting language such as JavaScript i.e a pages content is stored in the DOM and may 
 be accessed and manipulated (have structure, style and content changed) via JavaScript.
@@ -81,92 +81,91 @@ Because working with the DOM you can allow you to manipulate and view so much of
 great tool to explore alterations to a site in real time, seeing immediately the impact of these changes on a web page.
 
 </p>
-<br><br><p class = "content"><em class ="lead-statement">Arrays and objects are both ways of collecting and storing data in JavaScript:</em><br>
+<br><header><h3>Arrays and Objects</h3></header>
+<br><p class = "content"><em class ="lead-statement">Arrays and objects are both ways of collecting and storing data in JavaScript.</em>
+  <br><p class = center>Objects:</p>
    
-Objects are a particular data type that can store a collection of properties or characteristics in the form of a key and a value. For example, an object could contain many different properties that pertain to a single person 
-e.g.var client = { 
+  <p class = "content">Objects are a particular data type that can store a collection of properties or characteristics in the form of a key and a value. For example, an object could contain many 
+different properties that pertain to a single person: </p>
+<br><p class = center>var client = { 
 Name (key): ‘Emma’ (value), 
 Age (key): 28 (value), 
-Eye color (key): ‘Brown’  (value) ...and so on. 
-};
-Accessing/ adding/ changing and removing properties from an object is achieved using either dot or bracket notation.  E.g. to get the value of the Age key in the above example I could use
-client.age 
-Or
-b)  client[‘age’]
-We could also change the age value:
-client.age = 82; (Yup, I’m feeling it today!)
-You can use ‘for...in loops’ to iterate through properties in an object:
-for (var key in myObject) {
-  console.log(key); // logs keys in myObject
-  console.log(myObject[key]); // logs values in myObject
-}
+Eye color (key): ‘Brown’  (value) etc... 
+};</p>
+<br><p class = content> Accessing/ adding/ changing and removing properties from an object is achieved using either dot or bracket notation. For example to get the value of the Age key in the above 
+  example I could use:  
+<br><p class = center>a) client.age <br>
+<br>Or
+<br>b) client[‘age’] </p>
+<br><p class = content>And we can change the age value:</p>
+<br><p class = center>client.age = 82; (Yup, I’m feeling it today!)</p>
+<br><p class = content>You can use ‘for...in loops’ to iterate through properties in an object:
+  <img id = "example 1" src="images/for-in-loop-ob1.png">
  
- or by adding the ‘forEach()’ method to Object.keys():
-Object.keys(myObject).forEach(function(key) {
-  console.log(key); // logs keys in myObject
-  console.log(myObject[key]); // logs values in myObject
-});
+  or by adding the ‘forEach()’ method to Object.keys():
  
-Arrays
+ <img id = "example 1" src="images/for-in-loop-ob2.png"></p>
+ 
+ <br><p class = center>Arrays:</p>
  
  
  
-Arrays are a particular type of variable that can store a collection of values for that one variable. For example, an array could contain many different values (or names in this example) that pertain to a single person’s 6 cats. Cats in this example are the variable and the 6 different names are the 6 different values for that one variable.
+ <p class = "content">Arrays are a particular type of variable that can store a collection of values for that one variable. For example, an array could contain 
+   many different values (or names in this example) that pertain to a single person’s 6 cats. Cats in this example are the variable and the 6 different names 
+   are the 6 different values for that one variable:
  
-E.g. var emmasCats = [‘Bree’, ‘Sam’, ‘Bevuss, ‘Lyall’, ‘Lavender’, ‘Paprika’]
-To access/ add/ change and remove items from an array we need to use zero-based indexing which means that  the first value in the list of values is always 0, then 1,2,3 etc. If I want to access ‘Lavender’ I would write:
-emmasCats[4];
-Items can be added and removed from the beginning or end of an array using the push(), pop(), unshift(), and shift() methods:
-// push() - Adds item(s) to the end of an array
+   <br><p class = center>var emmasCats = [‘Bree’, ‘Sam’, ‘Bevuss, ‘Lyall’, ‘Lavender’, ‘Paprika’]</p>
+   <br><p class = content>To access/ add/ change and remove items from an array we need to use zero-based indexing which means that  the first value in the list of 
+     values is always 0, then 1,2,3 etc. If I want to access ‘Lavender’ I would write:</p>
+     <p class = center>emmasCats[4];</p>
+     <br><p class = content>Items can be added and removed from the beginning or end of an array using the push(), pop(), unshift(), and shift() methods:</p>
+     <br><p class = center>push() - Adds item(s) to the end of an array
 emmasCats.push(‘Poppy’);
  
-// pop() - Removes the last item from an array
-emmasCats.pop();
+<br><br>pop() - Removes the last item from an array
+emmasCats.pop(); 
  
-// unshift() - Adds item(s) to the beginning of an array
+<br><br> unshift() - Adds item(s) to the beginning of an array
 emmasCats.unshift('Celia', 'Charlie');
  
-// shift() - Removes the first item from an array
-emmasCats.shift();
+<br><br> shift() - Removes the first item from an array
+emmasCats.shift();</p>
  
-You can loop through items in an array in a few ways.There’s the standard for loop:
-for (var i = 0; i < myArray.length; i++) {
-  console.log(myArray[i]); // logs items in myArray
-}
+<br><p class = content>You can loop through items in an array in a few ways. </p><br><p class = center>There’s the standard for 
+  loop:
+  <img id = "example 1" src="images/array-1.png">
+
  
 There’s also the ‘for…of’ loop:
-for (var item of myArray) {
-  console.log(item); // logs items in myArray
-}
+<img id = "example 1" src="images/array-2.png">
  
 Or we can utilize the ‘forEach()’ method:
-myArray.forEach(item) {
-  console.log(item); // logs items in myArray
-});
+<img id = "example 1" src="images/array-3.png"></p>
 
   
   </p>
 
 
-       <br> <br><header><h3>What I think the difference between Emotional Intelligence and IQ is</h3></header>
+       <br> <br><header><h3>Functions</h3></header>
 
-        <p class = "content">My understanding is that IQ is a measure of a person's ability to reason using abstract logic and 
-        rationale. It will determine a person's speed and accuracy as it comes to solving complex cognitive tasks and relies on functions 
-        like attention, the formation of knowledge, memory and working memory, judgment and evaluation, reasoning and "computation", 
-        problem solving and decision making, comprehension and production of language. <br><br>
-
-        It is different to emotional intelligence both in the processes it more heavily relies on, e.g. learning, abstract and spatial 
-        thinking compared to perception/evaluation and expression. IQ seems to rely on more tangible, inert and measurable elements while 
-        emotional intelligence relies on largely unseen, animated and dynamic elements that exist within and between people
+       <br><p class = "content"><em class ="lead-statement">A JavaScript function is a container of code that performs an assigned task when it is called to do so.</em>
+           <br><br>The structure of a function is:
+           <br><p class = center>function name(parameter1, parameter2, parameter3) {
+            // code to be executed
+          }<br>
+          <br> <p class = "content">For example:</p>
+          <p class = center> 
+            <img id = "example 1" src="images/function-1.png"></p>
+          </p>
+          <br> <p class = "content">And when ‘called’ with real values:</p>
+          
+          <img id = "example 1" src="images/function-2.png"></p>
         </p>
-        <br> <br><header><h3>Why I think Emotional Intelligence is important</h3></header>
-        <p class = "content">Emotional intelligence is important as it allows for greater understanding, ability and process and therefore 
-            choice as it comes to experiencing and expressing emotions throughout life. In the workplace it can nurture collaboration, service, 
-            initiative, creativity and leadership. In the home it can do the same, it can enhance and nourish relationships and I believe it 
-            can impact overall wellness. It can often inform us of the reasoning and motivations for desiring certain things and making 
-            certain choices. <p id= "final-statement">I think the power of understanding what determines our choices is incredibly empowering as it grants us the opportunity 
-            to effectively support the changes we want to see in our lives.<p>
+        <br><p class = content> Functions are super cool because they can be reused - how eco friendly!
+          We only need to describe what a function does, and then we can assign an infinite combination of different values (aka arguments) and get different results throughout a project.
+          
         </p>
+        
 
 
 
