@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Emma's Place | Blog Page </title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Noto+Sans+JP:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="styles/blog_pages.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+</head>
+
+  <body>
+    <header> 
+        <div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="#about">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="intro">
+    <h1 class= "intro text">
+      <span class ="welcome-text"> You've made it to </span>
+      <br>
+      Emma's Blog on..
+    </h1>
+  </div> 
+  <div class ="container">
+    <header><h2 class ="blog_title">Chatting JavaScript
+    </h2></header>
+    <p class ="date">18th July 2020</p>
+
+    <header><h3>Javascript in basic terms, let's give it a go!</h3></header>
+    </p>
+    <p class ="content">
+ 
+        <br><em class ="lead-statement">JavaScript is the very engaging and adventurous friend of CSS and HTML:</em><br> To help me understand the different roles of 
+        HTML and CSS I like to think of them in terms of a structure - such a house or an organism. Following this thought pattern, HTML would be considered the ‘bones’ 
+        or frame of a structure. In tech, it is considered to be the raw content and the information that is wishing to be communicated. In comparison, CSS would be the 
+        flesh on the bones or the paint on the walls. There are lots of variations in what people or buildings look like, we can consider these differences in style or 
+        appearance. In tech, CSS brings color and unique aesthetic properties to the information we want to communicate in order to make it more attractive and somewhat 
+        more palatable.
+
+        <br><br><em class ="lead-statement">Control flow is the sequence in which statements in a script are executed:</em><br>
+        Like when you recreate that dish from masterchef, you will follow the steps in a recipe in an order to eventually achieve the desired outcome. 
+ 
+However, JavaScript is celebrated as being dynamic and responsive (a lot more so than a standard issue recipe), and so uses different operators (for example - operators 
+that use mathematical arithmetic) to respond differently according to changing information that is supplied to it. Using comparison and logical operators, we can define 
+terms which enable JavaScript to discern true or false statements and alter its action according to each outcome. These operators can be used simply or with more complexity, 
+essentially providing 1 or more alternatives depending on an outcome. Like having a plan contingency plan in place so it can execute a response for every possible outcome 
+e.g plan a), b), c) and so on.
+
+        
+        <br><br><em class ="lead-statement">Loops are a feature that affects the order of code execution and will repeatedly evaluates or runs a block of code until a 
+          specified condition is met or time frame is complete:</em><br>
+        Each ‘run through’ is known as an iteration.
+<br><br><em> ‘For loops’ -  </em> will iterate until a specified condition returns false
+<br><br><em>‘Do while’ -  </em> loops do the same except they will always iterate at least once before checking the specified condition is true or false.
+<br><br><em>‘While loops’ -  </em> are similar to ‘for loops’ and will only run as long as the specified condition equates to true. In contrast to ‘for loops’, while loops the term that defines its iteration can be written anywhere in the body of the loop - not just at the top.
+<br><br><p class = "center"> Bellow I have illustrated what the struture of a 'for loop'..:</p>
+
+<img id = "example 1" src="images/for-statement-1.png"> 
+
+<p class = "content">A loop in action is similar to me showering. I will lather myself beginning from my head and down to my toes with  soap with soap until I am covered and then rinse with 
+  water repeatedly until I can no longer feel or see soap on my body.
+
+<br><p class = "center"> And input my own example in the 'for' statement:</p>
+<img id = "example 1" src="images/for-statement-2.png">
+       
+<br><br><p class = "content"><em class ="lead-statement">DOM stands for Document Object model and is considered The glue between HTML, CSS and JavaScript :</em><br>
+It is an object-oriented representation of a web page, which can be modified with a scripting language such as JavaScript i.e a pages content is stored in the DOM and may 
+be accessed and manipulated (have structure, style and content changed) via JavaScript.
+
+In other words, the DOM is a programming interface for HTML and XML documents, and is a hierarchical presentation that browsers use to comprehend a document and object 
+within it on the web
+
+Any changes made to the DOM via JavaScript is reflected in what gets shown in the browser, therefore you can dynamically add elements, remove them, move them around, modify attributes on them, set inline CSS styles, and perform all sorts of other types of things. Isn’t that INCREDIBLE!
+
+Different browsers have different implementations of the DOM,
+But every web browser uses some document object model to make web pages accessible via JavaScript. <br><br>
+Because working with the DOM you can allow you to manipulate and view so much of what creates the webpage, i.e  get a reference to an element in the DOM, change its text content, apply new styles to it, create new elements and add them to the current element as children, or even delete it altogether, it becomes a 
+great tool to explore alterations to a site in real time, seeing immediately the impact of these changes on a web page.
+
+</p>
+<br><br><p class = "content"><em class ="lead-statement">Arrays and objects are both ways of collecting and storing data in JavaScript:</em><br>
+   
+Objects are a particular data type that can store a collection of properties or characteristics in the form of a key and a value. For example, an object could contain many different properties that pertain to a single person 
+e.g.var client = { 
+Name (key): ‘Emma’ (value), 
+Age (key): 28 (value), 
+Eye color (key): ‘Brown’  (value) ...and so on. 
+};
+Accessing/ adding/ changing and removing properties from an object is achieved using either dot or bracket notation.  E.g. to get the value of the Age key in the above example I could use
+client.age 
+Or
+b)  client[‘age’]
+We could also change the age value:
+client.age = 82; (Yup, I’m feeling it today!)
+You can use ‘for...in loops’ to iterate through properties in an object:
+for (var key in myObject) {
+  console.log(key); // logs keys in myObject
+  console.log(myObject[key]); // logs values in myObject
+}
+ 
+ or by adding the ‘forEach()’ method to Object.keys():
+Object.keys(myObject).forEach(function(key) {
+  console.log(key); // logs keys in myObject
+  console.log(myObject[key]); // logs values in myObject
+});
+ 
+Arrays
+ 
+ 
+ 
+Arrays are a particular type of variable that can store a collection of values for that one variable. For example, an array could contain many different values (or names in this example) that pertain to a single person’s 6 cats. Cats in this example are the variable and the 6 different names are the 6 different values for that one variable.
+ 
+E.g. var emmasCats = [‘Bree’, ‘Sam’, ‘Bevuss, ‘Lyall’, ‘Lavender’, ‘Paprika’]
+To access/ add/ change and remove items from an array we need to use zero-based indexing which means that  the first value in the list of values is always 0, then 1,2,3 etc. If I want to access ‘Lavender’ I would write:
+emmasCats[4];
+Items can be added and removed from the beginning or end of an array using the push(), pop(), unshift(), and shift() methods:
+// push() - Adds item(s) to the end of an array
+emmasCats.push(‘Poppy’);
+ 
+// pop() - Removes the last item from an array
+emmasCats.pop();
+ 
+// unshift() - Adds item(s) to the beginning of an array
+emmasCats.unshift('Celia', 'Charlie');
+ 
+// shift() - Removes the first item from an array
+emmasCats.shift();
+ 
+You can loop through items in an array in a few ways.There’s the standard for loop:
+for (var i = 0; i < myArray.length; i++) {
+  console.log(myArray[i]); // logs items in myArray
+}
+ 
+There’s also the ‘for…of’ loop:
+for (var item of myArray) {
+  console.log(item); // logs items in myArray
+}
+ 
+Or we can utilize the ‘forEach()’ method:
+myArray.forEach(item) {
+  console.log(item); // logs items in myArray
+});
+
+  
+  </p>
+
+
+       <br> <br><header><h3>What I think the difference between Emotional Intelligence and IQ is</h3></header>
+
+        <p class = "content">My understanding is that IQ is a measure of a person's ability to reason using abstract logic and 
+        rationale. It will determine a person's speed and accuracy as it comes to solving complex cognitive tasks and relies on functions 
+        like attention, the formation of knowledge, memory and working memory, judgment and evaluation, reasoning and "computation", 
+        problem solving and decision making, comprehension and production of language. <br><br>
+
+        It is different to emotional intelligence both in the processes it more heavily relies on, e.g. learning, abstract and spatial 
+        thinking compared to perception/evaluation and expression. IQ seems to rely on more tangible, inert and measurable elements while 
+        emotional intelligence relies on largely unseen, animated and dynamic elements that exist within and between people
+        </p>
+        <br> <br><header><h3>Why I think Emotional Intelligence is important</h3></header>
+        <p class = "content">Emotional intelligence is important as it allows for greater understanding, ability and process and therefore 
+            choice as it comes to experiencing and expressing emotions throughout life. In the workplace it can nurture collaboration, service, 
+            initiative, creativity and leadership. In the home it can do the same, it can enhance and nourish relationships and I believe it 
+            can impact overall wellness. It can often inform us of the reasoning and motivations for desiring certain things and making 
+            certain choices. <p id= "final-statement">I think the power of understanding what determines our choices is incredibly empowering as it grants us the opportunity 
+            to effectively support the changes we want to see in our lives.<p>
+        </p>
+
+
+
+
+<div> 
+     <p class = "welcome-text">Emma x</p>
+   </div>
+    <!-- this is a comment. -->
+    <div class = "btn-group">
+      <a class = "button" href= "blog.html">See more of my blog posts</a>
+      <br>
+      <a class = "button" href= "index.html">Head back to my homepage </a>
+      <br>
+    </div>
+  </body>
+</html>

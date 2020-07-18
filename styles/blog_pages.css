@@ -33,6 +33,14 @@ h3 {
 	margin: 0 auto;
 	padding-top: 1em;
 }
+.center {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 1em;
+	font-size: larger;
+}
 .content {
 	font-family: 'Source Sans Pro', sans-serif;
 	max-width: 800px;
@@ -85,6 +93,8 @@ img {
 	border-style: solid;
 	border-color: #b6755c;
 	}
+
+
 .topnav {
 	color: white;
 	background-color: #b6755c;
