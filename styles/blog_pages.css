@@ -1,168 +1,177 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
 @media only screen and (max-width: 500px) {
-p {
-	display:none;
-}
+  p {
+    display: none;
+  }
 }
 h1 {
-	font-family: 'Noto Serif JP', serif;
-	font-size: 60pt;
-	font-weight: 300;
-	text-align: center;
-	color: #b6755c;
-	margin-top: 1%;
-	margin-bottom: 1%;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 60pt;
+  font-weight: 300;
+  text-align: center;
+  color: #b6755c;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
-h3 { 
-	font-family: 'Noto Serif JP', serif;
-	font-size: 20pt;
-	font-weight: 300;
-	text-align: center;
-	color: #b6755c;
-	margin-top: 1%;
-	margin-bottom: 1%;
-
+h3 {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 20pt;
+  font-weight: 300;
+  text-align: center;
+  color: #b6755c;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 .container {
-	max-width: 800px;
-	margin: 0 auto;
-	padding-top: 1em;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 1em;
 }
 .center {
-	text-align: center;
-	font-family: 'Source Sans Pro', sans-serif;
-	max-width: 800px;
-	margin: 0 auto;
-	margin-top: 1em;
-	font-size: larger;
-	font-weight: 600;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 1em;
+  font-size: larger;
+  font-weight: 600;
 }
 .content {
-	font-family: 'Source Sans Pro', sans-serif;
-	max-width: 800px;
-	margin: 0 auto;
-	margin-top: 1em;
-	font-size: larger;
-	
+  font-family: 'Source Sans Pro', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 1em;
+  font-size: larger;
 }
 .quote {
-	font-size: 18pt;
-	text-align: center;
-	font-family: 'Noto Serif JP', serif;
+  font-size: 18pt;
+  text-align: center;
+  font-family: 'Noto Serif JP', serif;
 }
 .date {
-	font-size: 10pt;
-	font-family: 'Noto Serif JP', serif;
-	text-align: center;
-	font-style: italic ;
+  font-size: 10pt;
+  font-family: 'Noto Serif JP', serif;
+  text-align: center;
+  font-style: italic;
 }
 .blog_title {
-	font-family: 'Noto Serif JP', serif;
-	font-size: 40pt;
-	text-align: center;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 40pt;
+  text-align: center;
 }
 .lead-statement {
-	font-weight: 700;
-	font-style: normal;
-	font-size: large;
-	font-family: 'Noto Serif JP', serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: large;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
 }
 body {
-	background-color: #c4b7a7;
+  background-color: #c4b7a7;
 }
 .welcome-text {
-	font-family: 'Caveat', cursive;
-	font-size: 25pt;
-	font-style: italic;
-	text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size: 25pt;
+  font-style: italic;
+  text-align: center;
 }
 img {
-	border-radius: 1%;
-	margin-top: 2%;
-	max-width: 100%;
-	min-width:50%;
-	height: auto;
-	display: block;
-    margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 2%;
-	border-style: solid;
-	border-color: #b6755c;
-	}
-
+  border-radius: 1%;
+  margin-top: 2%;
+  max-width: 100%;
+  min-width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  border-style: solid;
+  border-color: #b6755c;
+}
 
 .topnav {
-	color: white;
-	background-color: #b6755c;
-	font-family: 'Noto Serif JP', serif;
-	font-size: 15pt;
-	font-weight: 100;
-	text-align: right;
-	letter-spacing: 2px;
+  color: white;
+  background-color: #b6755c;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 15pt;
+  font-weight: 100;
+  text-align: right;
+  letter-spacing: 2px;
 }
 a:link {
-		color:#30302f;
+  color: #30302f;
 }
 a:visited {
-	color: #30302f
-  }
+  color: #30302f;
+}
 .blog-section {
-	height: 400px;
-	width:600px;
-	display: flex;
-	flex-direction: column;
-	font-family:'Noto Serif JP', serif;
-	letter-spacing: 1pt;
-	display: block;
-    margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 5%;
-	margin-top: 5%;
-	text-align: center;
-	font-size: 15pt;
-	padding-left: 10pt;
-	padding-right: 10pt;
+  height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Noto Serif JP', serif;
+  letter-spacing: 1pt;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 15pt;
+  padding-left: 10pt;
+  padding-right: 10pt;
 }
 .button {
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: 500;
-	padding-top: 1.3em;
-	font-family:'Caveat', cursive;
-	border: 5px solid #30302f;
-	border-left: 50%;
-	border-right: 50%;
-	padding: 10px;
-	background-color: none; 
-  	color: white;
-  	text-decoration: none;
-  	display: flex;
-  	justify-content: center;
-  	align-items: center;
-	font-size: 25px;
-	transition-duration: 0.4s;
-	letter-spacing: 2pt;
-	max-width: 100%
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-top: 1.3em;
+  font-family: 'Caveat', cursive;
+  border: 5px solid #30302f;
+  border-left: 50%;
+  border-right: 50%;
+  padding: 10px;
+  background-color: none;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  transition-duration: 0.4s;
+  letter-spacing: 2pt;
+  max-width: 100%;
 }
 .button:hover {
-		background-color:  #b6755c;
-		color: white;
-	  }
+  background-color: #b6755c;
+  color: white;
+}
 ul {
-	list-style-type: circle;
-	margin: 0;
-	padding:0;
-	line-height: 30pt;
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
+  line-height: 30pt;
 }
 #final-statement {
-	text-align: center;
-	font-weight: 700;
-	font-style: normal;
-	font-size: large;
-	font-family: 'Noto Serif JP', serif;
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  font-size: large;
+  font-family: 'Noto Serif JP', serif;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
