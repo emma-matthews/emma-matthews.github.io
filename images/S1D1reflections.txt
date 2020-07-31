@@ -1,0 +1,71 @@
+S1D1: 
+
+In a couple of sentences, how would you describe the command line in plain English? Can you think of an analogy for it?
+
+The command line is an orientation, creation and editing tool for your file. It works similarly to the interface you use with your mouse to find and double click on folders/files 
+except you can move through it using just your keypad. It acts as the portal to your local files and is where you can push local changes to remote locations/files.
+
+
+Did you stick to the timebox guidelines? If not, what change would you make next time?
+
+I'm not sure. Next time I will use my pomodoro timer from the beginning rather than from half way through!
+
+
+Name 5 commands you used, and what they do
+
+git add -A = 'setting the stage for a push request'
+git commit -m = commiting a push request - where you add a message that collaborators can see
+git push = final step of push request process, it will now show up on git hub.
+ls = lists what is inside the current directory
+git status = displays the state of the working directoy and the staging area
+
+Explain what version control is and does
+
+Version control assits collaborative works as well as preserves projects at different moments of it's life. It means that multiple collaborators can make changes to a project 
+synchronously or asynchronously, and there is no risk of each persons work being 'overridden'. It also means you have a saftey check in place, if a mistake occurs or a risk
+didn't pay off - you can go 'back in time' and restore/look at a previous version of the project.
+
+Understand what Git is
+
+Git is a downloadable distributed version contol software
+
+Understand what GitHub is
+
+Where coders can store and sharing code
+
+S1D2:
+
+Whats the difference between git and GitHub?
+Git is a version control software, GitHub is a host for git repositories
+
+Can you think of an analogy to describe them?
+
+Git is the book you are writing, Git hub is where you keep and share the book.
+
+What did you notice about your own learning? What did you do when you were confused or blocked?
+
+I rang my brother who recently did the course, I messaged Joseph, I browsed the #foundations channel on slack, I googled, I wrote down issues I was having and allowed myself
+to move on knowing that I am checking in with Joseph tomorrow and I'm sure he can help me then. I wanted to avoid creating a time sink hole with issues - especially
+when I didn't know how crucial they were. I am building a trust that even if I don't understand something in all it's detail now I can relax in understand the bigger concept and 
+look out for the solution later in the program if my conversations with people have not yet been able to help me. I want to be able to consider it a blank amidst 
+trustworthy knowledge - it will eventually be filled!
+
+Is there anything you'd do differently if you were to repeat the learning exploration again?
+
+Take care not to spend too much time on a small issue. If I can't get a quick response from a support person and it is possible to move on I will write down the issue and
+save it for when I can easily ask and get a response. I'll then move on!
+
+S1D3:
+
+What is Master?
+Master is the most pristine version of the project/code that we refer to.
+
+Why create a Branch?
+
+To allow for a single person to experiment/make changes to a copy of the master code without yet making any perminent changes to it. It means that multiple people can be working 
+on the project at the same time but are not confusing each other with their changes.
+
+How would you describe stage and commit to your non-tech-savvy friend?
+
+Staging is the moment when you are submitting your changes to a platform where it can prepare itself to be officially committed to the master copy/repo. Having multiple
+steps in place when commiting allows for safey checks and hopefully less errors.
