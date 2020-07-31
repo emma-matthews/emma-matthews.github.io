@@ -48,6 +48,10 @@ h3 {
   margin-top: 1em;
   font-size: larger;
 }
+
+em {
+  text-emphasis-color: black;
+}
 .quote {
   font-size: 18pt;
   text-align: center;
