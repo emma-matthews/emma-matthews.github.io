@@ -1,6 +1,6 @@
 body {
   font-family: 'Rye', cursive;
-  background-color: LightPink;
+  background-color: #e22a77;
 }
 
 h1 {
@@ -8,6 +8,7 @@ h1 {
   margin-bottom: 50px;
   font-size: 3em;
   text-align: center;
+  color: #5fded7;
 }
 
 table {
